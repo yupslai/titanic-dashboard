@@ -60,5 +60,16 @@ pip install -r requirements.txt
 streamlit run titanic_dashboard/app.py
 ```
 
-## 프로젝트 구조
-titanic-dashboard/ └── titanic_dashboard/ ├── app.py # 메인 Streamlit 앱 ├── data/ │ └── titanic.csv # 원본 데이터 ├── models/ │ └── survival_predictor.py # ML 모델 ├── components/ │ ├── sidebar.py # UI 컴포넌트 │ └── charts.py # 시각화 함수 ├── utils/ │ └── data_loader.py # 데이터 처리 └── requirements.txt # 패키지 목록
+titanic-dashboard/
+└── titanic_dashboard/
+    ├── app.py                  # 메인 Streamlit 앱
+    ├── data/
+    │   └── titanic.csv         # 원본 데이터
+    ├── models/
+    │   └── survival_predictor.py  # ML 모델
+    ├── components/
+    │   ├── sidebar.py          # UI 컴포넌트
+    │   └── charts.py           # 시각화 함수
+    ├── utils/
+    │   └── data_loader.py      # 데이터 처리
+    └── requirements.txt        # 패키지 목록
