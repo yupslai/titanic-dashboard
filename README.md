@@ -54,11 +54,11 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
 
-## 실행 방법
+## 🚀 실행 방법
+
 ```bash
 # 중요: 앱은 titanic_dashboard 폴더 안에 있습니다
 streamlit run titanic_dashboard/app.py
-```
 
 titanic-dashboard/
 └── titanic_dashboard/
