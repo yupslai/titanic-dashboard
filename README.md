@@ -61,4 +61,4 @@ streamlit run titanic_dashboard/app.py
 ```
 
 ## 프로젝트 구조
-titanic-dashboard/ └── titanic_dashboard/ ├── app.py # 메인 Streamlit 애플리케이션 ├── data/ │ └── titanic.csv # 원본 타이타닉 데이터셋 ├── models/ │ └── survival_predictor.py # 생존 예측 머신러닝 모델 ├── components/ │ ├── sidebar.py # 사이드바 UI 컴포넌트 │ └── charts.py # 시각화 함수 모음 ├── utils/ │ └── data_loader.py # 데이터 로딩 및 전처리 유틸 └── requirements.txt # 필요한 패키지 목록
+titanic-dashboard/ └── titanic_dashboard/ ├── app.py # 메인 Streamlit 앱 ├── data/ │ └── titanic.csv # 원본 데이터 ├── models/ │ └── survival_predictor.py # ML 모델 ├── components/ │ ├── sidebar.py # UI 컴포넌트 │ └── charts.py # 시각화 함수 ├── utils/ │ └── data_loader.py # 데이터 처리 └── requirements.txt # 패키지 목록
