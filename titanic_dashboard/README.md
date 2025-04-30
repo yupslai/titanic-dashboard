@@ -13,8 +13,8 @@
 ## 설치 방법
 1. 저장소 클론
 ```bash
-git clone [repository-url]
-cd titanic_dashboard
+git clone https://github.com/yupslai/titanic-dashboard.git
+cd titanic-dashboard
 ```
 
 2. 가상환경 생성 및 활성화
@@ -31,25 +31,25 @@ pip install -r requirements.txt
 
 ## 실행 방법
 ```bash
-streamlit run app.py
+# 중요: 앱은 titanic_dashboard 폴더 안에 있습니다
+streamlit run titanic_dashboard/app.py
 ```
 
 ## 프로젝트 구조
 ```
-titanic_dashboard/
-├── app.py                  # 메인 Streamlit 앱
-├── data/
-│   └── titanic.csv        # 원본 데이터
-├── models/
-│   └── survival_predictor.py  # ML 모델
-├── components/
-│   ├── sidebar.py         # UI 컴포넌트
-│   └── charts.py          # 시각화 함수
-├── utils/
-│   └── data_loader.py     # 데이터 처리
-├── assets/
-│   └── logo.png          # 이미지
-└── requirements.txt       # 패키지 목록
+titanic-dashboard/
+└── titanic_dashboard/
+    ├── app.py                  # 메인 Streamlit 앱
+    ├── data/
+    │   └── titanic.csv        # 원본 데이터
+    ├── models/
+    │   └── survival_predictor.py  # ML 모델
+    ├── components/
+    │   ├── sidebar.py         # UI 컴포넌트
+    │   └── charts.py          # 시각화 함수
+    ├── utils/
+    │   └── data_loader.py     # 데이터 처리
+    └── requirements.txt       # 패키지 목록
 ```
 
 ## 기여 방법
